@@ -64,7 +64,7 @@ jobs:
       - run: npm test -- --coverage
         name: Run tests coverage
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         name: Archive coverage report
         with:
           name: coverage-report
